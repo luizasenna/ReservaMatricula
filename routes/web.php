@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('index');
 });
+
+
+Route::get('/reserva', function () {
+    return view('reserva');
+})->name('reserva');;
